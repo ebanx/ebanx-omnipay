@@ -1,0 +1,37 @@
+{
+    "name": "hdolinski/omnipay-ebanx",
+    "type": "library",
+    "description": "EBANX driver for the Omnipay payment processing library",
+    "keywords": [
+        "ebanx",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "latam",
+        "brazil"
+    ],
+    "homepage": "https://github.com/ebanx/ebanx-omnipay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Heitor Dolinski",
+            "email": "heitor@ebanx.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Ebanx\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0",
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
