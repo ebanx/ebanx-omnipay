@@ -8,7 +8,7 @@ use Omnipay\Ebanx\Message\Request;
 /**
  * eWAY Rapid 3.0 Gateway
  */
-class EbanxGateway extends AbstractGateway
+class Gateway extends AbstractGateway
 {
     //public $transparentRedirect = true;
 
